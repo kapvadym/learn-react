@@ -1,0 +1,12 @@
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button.action{
+  color: var(--action-btn-text);
+  background-color: var(--action-btn-color);
+  border-radius: 7px;
+  padding: 0.5rem;
+}

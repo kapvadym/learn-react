@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { 
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  html{
+    font-size: 22px !important;
+  }
+  h1{
+    font-size: 62px !important;
+  }
+  h2{
+    font-size: 32px !important;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: var(--h1-text-color);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--h1-text-color);
+  letter-spacing: 3%;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+section {
+  padding: 2% 5%;
+}
