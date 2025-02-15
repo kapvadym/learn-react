@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/hero.css";
+import "../styles/arrivals.css";
 
 const App = () => {
   return(
@@ -24,7 +25,7 @@ const App = () => {
           <div className="hero-main">
             <div className="text">
               <div className="title">
-                <h1>LET’S EXPLORE UNIQUE CLOTHES.</h1>
+                <h1><span>LET’S</span> EXPLORE <span>UNIQUE</span> CLOTHES.</h1>
               </div>
 
               <div className="sub-title">
@@ -36,10 +37,41 @@ const App = () => {
               </div>
             </div>
 
-            
-            
             <div className="picture">
               <img src={`${process.env.PUBLIC_URL}/assets/hero-women.png`} className="img" />
+            </div>
+          </div>
+        </section>
+
+        <div className="brands">
+            <div className="brands-handler">
+              <img src={`${process.env.PUBLIC_URL}/assets/HnM.png`} alt="H&M" />
+              <img src={`${process.env.PUBLIC_URL}/assets/OBEY.png`} alt="OBEY" />
+              <img src={`${process.env.PUBLIC_URL}/assets/shopify.png`} alt="shopify" />
+              <img src={`${process.env.PUBLIC_URL}/assets/LACOSTE.png`} alt="LACOSTE" />
+              <img src={`${process.env.PUBLIC_URL}/assets/LEVIS.png`} alt="LEVIS" />
+              <img src={`${process.env.PUBLIC_URL}/assets/amazon.png`} alt="amazon" />
+            </div>
+        </div>
+
+        <section className="arrivals">
+          <div className="arrivals-head">
+            <div className="title">
+              <h2>NEW AR<span>RIVALS</span></h2>
+            </div>
+          </div>
+
+          <div className="arrivals-main">
+            <div className="cards-holder">
+              <div className="card">
+                <div className="card-photo">
+
+                </div>
+
+                <div className="card-info">
+
+                </div>
+              </div>
             </div>
           </div>
         </section>

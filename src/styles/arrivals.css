@@ -1,0 +1,45 @@
+.arrivals{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.arrivals .arrivals-head{
+  
+}
+
+.arrivals .arrivals-head .title{
+  display: flex;
+  position: relative;
+}
+
+.arrivals .arrivals-head .title span{
+  display: inline-block;
+  position: relative;
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.arrivals .arrivals-head .title span::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: .5rem;
+  transform: rotate(-5deg);
+  border-radius: 50% / 30%;
+  background-color: var(--second-bg-color);
+  z-index: -1;
+}
+
+.arrivals .arrivals-main {
+}
+
+.arrivals .arrivals-main .card-holder {
+  display: flex;
+  gap: 5%;
+}
